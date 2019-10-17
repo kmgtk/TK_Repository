@@ -15,6 +15,8 @@ import com.board.service.BoardService;
 @Controller
 @RequestMapping("/board/*")
 public class BoardController {
+	
+	String a;
 
 	@Autowired
 	BoardService service;
